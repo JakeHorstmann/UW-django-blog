@@ -3,7 +3,6 @@ from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
 
 from polling.models import Poll
-# Create your views here.
 
 class PollListView(ListView):
     model = Poll
