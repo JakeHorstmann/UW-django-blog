@@ -8,5 +8,5 @@
   {{ form.as_p }}
   <p><input type="submit" value="Log In"></p>
 </form>
-<a href="#">Sign Up with GitHub</a>
+<a href="{% provider_login_url 'github' %}">Sign Up with GitHub</a>
 {% endblock %}
